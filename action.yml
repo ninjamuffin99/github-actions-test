@@ -1,0 +1,12 @@
+name: 'My Custom Action'
+description: 'Say hello'
+inputs:
+  my_input:
+    description: 'Name to greet'
+    required: true
+outputs:
+  my_output:
+    description: 'Greeting message'
+runs:
+  using: 'node12'
+  main: 'index.js'
